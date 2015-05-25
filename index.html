@@ -1,13 +1,106 @@
-<h1>paris-meetup.com</h1>
-<h3>A <a href="http://rocket-design.fr">Rocket-Design</a> initiative</h3>
-
-<p>At rocket-design, we wanted to open our communities, organizing meetups in Paris, with community members of our everyday services</p> 
-
-<ul>
-    <li><a href="http://dribbble.paris-meetup.com/2015">Dribbble Meetup 2015</a></li>
-    
-</ul>
-
-
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>Dribbble Paris Meetup</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
 
+  <link rel="stylesheet"  href="styles/main.css" />
+  <link rel="prefetch" id="list" href="styles/over-list.css" />
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+</head>
+<body>
+
+      <!--[if lt IE 10]>
+          <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+          <![endif]-->
+
+          <div class="container">
+
+            <div class="header">
+              <div class="header__background"></div>
+              <div class="header__content">
+                <a href="index.html">
+                  <img src="images/svg/paris.svg" title="Paris" alt="Paris" class="content__main-visual"/>
+                  <span><img src="images/svg/meetup.svg" alt="Meetup mention" class="header__visual-item"/></span>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="page">
+              <div class="card__wrapper">
+                <div class="inscription-card">
+                  <section class="card__form">
+                    
+                    <div class="well">
+                        <h2>Paris Meetup</h2>
+                      <h3 class="info">by Rocket-Design</h3>
+                    
+                    </div>
+                    
+                    <span class="separator-x big-space"></span>
+
+                    <div>
+
+                      <div class="table">
+                        <header><h3>Prochains Meetups</h3></header>
+
+                        <div class="table-rows">
+                          <div class="row">
+                            <a href="dribbble/" >Dribbble Paris Meetup  <span class="calendar">26 <em>Juin</em></span></a> 
+                          </div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <span class="separator-x big-space"></span>
+                    <div>
+                      <h4 class="info">Contact</h4>
+
+                      <ul class="twitter-accounts">
+                        <li><a href="http://twitter.com/LukyVj" class="btn-swag btn-dribbble btn-border-o">@LukyVj</a></li>
+                        <li><a href="http://twitter.com/KevinCdnc" class="btn-swag btn-dribbble btn-border-o">@KevinCdnc</a></li>
+                      </ul>
+                    </div>
+
+                    <span class="separator-x big-space"></span>
+                    <div>
+                      <h4 class="info">Press</h4>
+
+                      <ul >
+                        <li><a href="http://rocket-design.fr/press/meetup/Communique%CC%81%20de%20Presse%20Rocket%20Design%20%C2%A0-%20%20Dribbble%20Meetup%20Paris.pdf" class="btn-swag btn-dribbble btn-border-o">Communiqué de presse - Dribbble Paris Meetup #1 </a></li>                          
+                      </ul>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <footer>
+                <small>2015 - <a href="http://rocket-design.fr" target="_blank">Rocket-Design</a> - <a href="https://github.com/paris-meetup/dribbble">Github</a></small>
+              </footer>
+            </div>
+          </div>
+
+          <div id="fb-root" class="fb-root"></div>
+
+          <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-43821072-2', 'auto');
+            ga('send', 'pageview');
+
+          </script>
+
+        </body>
+        </html>
